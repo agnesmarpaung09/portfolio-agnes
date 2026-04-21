@@ -130,11 +130,6 @@ h1 span {
   gap: 14px;
 }
 
-.helper-text {
-  margin-bottom: 0;
-  font-size: 0.95rem;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -169,7 +164,7 @@ h1 span {
 
 .section-heading h2 {
   font-size: clamp(1.8rem, 4vw, 3rem);
-  max-width: 640px;
+  max-width: 760px;
 }
 
 .about-card,
@@ -208,6 +203,21 @@ h1 span {
   gap: 18px;
 }
 
+.project-card {
+  padding: 24px;
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
+}
+
+.project-tools {
+  margin-bottom: 0;
+  color: var(--primary-dark);
+  font-weight: 700;
+  line-height: 1.6;
+}
+
 .profile-card {
   padding: 28px 24px;
   border: 1px solid var(--line);
@@ -216,18 +226,13 @@ h1 span {
   text-align: center;
 }
 
-.profile-avatar {
-  display: grid;
-  place-items: center;
+.profile-image {
   width: 180px;
   height: 180px;
   margin: 0 auto 18px;
+  display: block;
+  object-fit: cover;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-  color: #fff;
-  font-size: 3.2rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
   box-shadow: 0 16px 30px rgba(124, 45, 18, 0.22);
 }
 
@@ -239,36 +244,9 @@ h1 span {
 }
 
 .profile-role {
-  margin-bottom: 10px;
-  color: var(--primary-dark);
-  font-weight: 700;
-}
-
-.profile-note {
-  margin-bottom: 0;
-  font-size: 0.95rem;
-}
-
-.project-card {
-  padding: 24px;
-}
-
-.project-card h3 {
-  font-size: 1.3rem;
-}
-
-.project-card a {
-  display: inline-block;
-  margin-top: 8px;
-  color: var(--primary);
-  font-weight: 700;
-}
-
-.project-tools {
   margin-bottom: 0;
   color: var(--primary-dark);
   font-weight: 700;
-  line-height: 1.6;
 }
 
 .footer {
