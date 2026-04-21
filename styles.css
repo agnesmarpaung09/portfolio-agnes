@@ -232,7 +232,7 @@ h1 span {
   margin: 0 auto 18px;
   display: block;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 18px;
   box-shadow: 0 16px 30px rgba(124, 45, 18, 0.22);
 }
 
